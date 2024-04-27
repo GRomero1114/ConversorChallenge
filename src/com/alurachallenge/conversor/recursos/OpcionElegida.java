@@ -127,7 +127,7 @@ public class OpcionElegida {
         if (tipoDeVerificacion.equalsIgnoreCase("D"))
         {
             try {
-                // Intenta convertir la cadena a un entero
+                // Intenta convertir la cadena a un double
                 dobleDePrueba = parseDouble(cadena);
                 cantidadAConvertir=dobleDePrueba;
                 return true;
