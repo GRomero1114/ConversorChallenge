@@ -1,17 +1,8 @@
 package com.alurachallenge.conversor.recursos;
 
+
 public class Menu {
-    OpcionElegida opcionelegida = new OpcionElegida();
-    int opcion= 10;
-
-    public void inicializarConversor(){
-        while (opcion !=0){
-            mostrarMenuPrincipal();
-            opcion=opcionelegida.elegirUnaOpcion();
-        }
-        System.out.println("Aplicaión Finalizada");
-    }
-
+    //Aqui van los menus si hubiera mas de uno
     public void mostrarMenuPrincipal(){
         System.out.println("""
                 *******************************

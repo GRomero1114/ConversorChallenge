@@ -10,6 +10,9 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.InputMismatchException;
 
+/*En este caso Conversor se encarga de la conexión con el servidor
+ y la conversion mediante una de las opciones del mismo*/
+
 public class Conversor {
     Gson gson = new GsonBuilder().setPrettyPrinting().create();
     public TipoDeCambio convertir(String monedaBase, String monedaTarget, double monto)  {

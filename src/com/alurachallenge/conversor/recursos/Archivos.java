@@ -5,6 +5,8 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;
 
+/* Todo lo relacionado con lectura y escritura de archivos */
+
 public class Archivos  {
     File divisas = new File("Divisas-Paises.txt");
     File historial = new File("Historial.txt");

@@ -7,7 +7,7 @@ public class ConversorDeDivisas {
         OpcionElegida opcionlegida = new OpcionElegida();
         int opcion = 10;
         while (opcion != 0) {
-            menu.inicializarConversor();
+            menu.mostrarMenuPrincipal();
             opcion = opcionlegida.elegirUnaOpcion();
         }
         System.out.println("Aplicaión Finalizada");
